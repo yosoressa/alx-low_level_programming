@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * main - Print the word "Holberton"
+ *
+ * Return: Always 0 (Success/correct)
+ */
+
+int main(void)
+{
+	int j;
+	char s[] = "_putchar";
+
+	for (j = 0; j < 8; j++)
+	{
+		_putchar(p[j]);
+	}
+	_putchar('\n');
+}
