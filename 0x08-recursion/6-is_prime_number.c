@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * valuate_num - recursion loop
+ * evaluate_num - recursion loop
  * @num: num
  * @iterator: number to iterate
  * Return: return 1 or 0
  */
+
 int evaluate_num(int num, int iterator)
 {
 	if (iterator == num - 1)
@@ -18,6 +20,7 @@ int evaluate_num(int num, int iterator)
 
 	return (0);
 }
+
 /**
  * is_prime_number - evaluate prime or not
  * @num: number
@@ -30,6 +33,7 @@ int is_prime_number(int num)
 
 	iterator = 2;
 
+	/* only greater than 2*/
 	if (num < 2)
 		return (0);
 
